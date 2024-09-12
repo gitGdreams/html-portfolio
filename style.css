@@ -5,6 +5,7 @@ h1, h2 {
 .indivProject {
     width: 18rem;
     border: solid;
+    display: inline-block;
     margin-bottom: 10px;
     padding-bottom: 5px;
 }
@@ -19,4 +20,9 @@ div > h4, img {
 #bottomLinks {
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+.projList {
+    justify-content: center;
+
 }
