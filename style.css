@@ -25,9 +25,9 @@ div > h4, img {
 }
 
 .projList {
-    text-align: center;
-
-
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 div > img {
