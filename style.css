@@ -3,11 +3,13 @@ h1, h2 {
 }
 
 .indivProject {
-    width: 18rem;
+    width: 20%;
     border: solid;
     display: inline-block;
     margin-bottom: 10px;
     padding-bottom: 5px;
+    margin-left: 2% ;
+    margin-right: 2%;
 }
 
 div > h4, img {
@@ -23,6 +25,32 @@ div > h4, img {
 }
 
 .projList {
-    justify-content: center;
+    text-align: center;
+
+
+}
+
+div > img {
+    width: 95%;
+    object-fit: cover;
+}
+
+@media (max-width: 950px) {
+
+h1 {
+    font-size: x-large;
+}
+h2 {
+    font-size: large;
+}
+
+.indivProject {
+    width: 40%;
+}
+
+
+
+
+
 
 }
