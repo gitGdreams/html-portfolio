@@ -1,15 +1,41 @@
-h1, h2 {
+
+
+#headline {
     text-align: center;
+    color: hsl(224, 37%, 16%);
+    background-color: rgb(230, 230, 230);
+    padding: .3%;
+}
+
+h3 {
+    color: hsl(224, 37%, 16%);
+}
+
+a {
+    font-weight: lighter;
+    color: rgb(253, 253, 253);
+}
+
+.projList {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 1%;
+    gap: 1%; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
 }
 
 .indivProject {
-    width: 20%;
-    border: solid;
+    width: 300px;
+    border: none;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     padding-bottom: 5px;
-    margin-left: 2% ;
-    margin-right: 2%;
+    background-color: hsl(226, 21%, 16%);
+    border: double white;
 }
 
 div > h4, img {
@@ -19,20 +45,42 @@ div > h4, img {
     margin-right: auto;
 }
 
-#bottomLinks {
-    padding-top: 10px;
-    padding-bottom: 20px;
+#topLinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
 }
 
-.projList {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+#topLinks > a {
+    color: hsl(226, 21%, 16%);
 }
+
+
 
 div > img {
     width: 95%;
     object-fit: cover;
+}
+
+@media (max-width: 1700px) {
+
+    .projList {
+    grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .projList {
+    grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .projList {
+    grid-template-columns: auto auto;
+    }
 }
 
 @media (max-width: 950px) {
@@ -43,14 +91,7 @@ h1 {
 h2 {
     font-size: large;
 }
-
-.indivProject {
+}
+/* .indivProject {
     width: 40%;
-}
-
-
-
-
-
-
-}
+} */
