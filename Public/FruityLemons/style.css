@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(300deg, #F6E96B, #A2CA71, #387F39);
+    background: linear-gradient(300deg, #F6E96B, #BEDC74, #387F39);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -15,3 +15,21 @@
       background-position: 0% 50%;
     }
   }
+
+  .fredoka {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+  .quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+  }
+
