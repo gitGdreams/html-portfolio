@@ -3,7 +3,7 @@
 }
 
 .gradient-background {
-    background: linear-gradient(300deg, #F6E96B, #BEDC74, #387F39);
+    background: linear-gradient(300deg, #f6e96b, #BEDC74, #387F39);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -19,6 +19,25 @@
       background-position: 0% 50%;
     }
   }
+
+  .gochi-hand-regular {
+    font-family: "Gochi Hand", cursive; 
+    font-size: 2em;
+    background: linear-gradient(120deg, #f6e96b, #fff382, #006400, #006400);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    background-size: 300% 300%;
+    color: transparent;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .gochi {
+    font-family: "Gochi Hand", cursive; 
+    color: #006400;
+    font-size: 2em;
+  }
+  
 
   .fredoka {
     font-family: "Fredoka", sans-serif;
@@ -37,6 +56,9 @@
     font-style: normal;
   }
   
+
+
+
 .icon-square {
   width: 3rem;
   height: 3rem;
