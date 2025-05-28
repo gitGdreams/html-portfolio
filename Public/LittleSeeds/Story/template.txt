@@ -1,16 +1,15 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gentle Stories for Growing Minds</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="../styles.css" />
     </head>
 <body>
     <nav>
       <button class="nav-toggle" onclick="toggleNav()">☰ Menu</button>
       <div class="nav-links" id="navLinks">
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <a href="/Story/Day1.html">Day 1</a>
         <a href="/Story/Day2.html">Day 2</a>
         <a href="/Story/Day3.html">Day 3</a>
@@ -20,19 +19,19 @@
         <a href="/Story/Day7.html">Day 7</a>
       </div>
     </nav>
-      <!-- Home Page -->
-      <div class="page">
-        <h1>Gentle Stories for Growing Minds</h1>
-        <p>Welcome to a place of calm bedtime stories, designed for every heart—young or old, big or small. These stories are written to spark kindness, resilience, creativity, and love before drifting into dreams. Read one each night, and let them plant seeds of wisdom and joy that grow quietly through every day.</p>
-        <h2>How to Use This Book</h2>
-        <ul>
-          <li>Read one 30 minute story per night before bed.</li>
-          <li>Let the child or reader reflect on what they felt or learned.</li>
-          <li>Feel free to tailor these insights and reflections to what you personally need most. Your journey is unique—use what resonates to guide your growth.</li>
-          <li>Come back to favorite stories as often as you like.</li>
-          <li>Grow together, one quiet moment at a time.</li>
-        </ul>
-      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <footer>
       &copy; 2025 Gentle Stories. All rights reserved.
     </footer>
