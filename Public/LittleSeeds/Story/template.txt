@@ -10,13 +10,13 @@
       <button class="nav-toggle" onclick="toggleNav()">☰ Menu</button>
       <div class="nav-links" id="navLinks">
         <a href="../index.html">Home</a>
-        <a href="/Story/Day1.html">Day 1</a>
-        <a href="/Story/Day2.html">Day 2</a>
-        <a href="/Story/Day3.html">Day 3</a>
-        <a href="/Story/Day4.html">Day 4</a>
-        <a href="/Story/Day5.html">Day 5</a>
-        <a href="/Story/Day6.html">Day 6</a>
-        <a href="/Story/Day7.html">Day 7</a>
+        <a href="../Story/Day1.html">Day 1</a>
+        <a href="../Story/Day2.html">Day 2</a>
+        <a href="../Story/Day3.html">Day 3</a>
+        <a href="../Story/Day4.html">Day 4</a>
+        <a href="../Story/Day5.html">Day 5</a>
+        <a href="../Story/Day6.html">Day 6</a>
+        <a href="../Story/Day7.html">Day 7</a>
       </div>
     </nav>
     
